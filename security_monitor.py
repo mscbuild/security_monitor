@@ -334,3 +334,4 @@ Details: {json.dumps(event.details, indent=2)}
             json.dump(config, f, indent=2, default=str)
         
         self.logger.info(f"Configuration saved to {self.config_path}")
+        
